@@ -51,7 +51,16 @@ article.markdown-section{
   margin: 40px 0;
 }
 
-.markdown-section td,
-.markdown-section th {
-  border-color: var(--tableBorderColor);
+.markdown-section code,
+.markdown-section pre {
+  background-color: #283846;
+}
+
+.markdown-section code {
+  padding-top: 7px;
+  vertical-align: middle;
+}
+
+.markdown-section p.tip code {
+  background-color: #0d1a24;
 }
